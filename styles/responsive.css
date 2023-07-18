@@ -1,17 +1,55 @@
 @media screen and (max-width:576px) {
-    .nav{
+    .nav {
         flex-direction: column;
         height: auto;
         align-items: center;
         box-shadow: none;
     }
 
-    .nav-title{
+    .nav-title {
         margin-top: 30px;
     }
-    .nav-menu{
+
+    .nav-menu {
         flex-direction: column;
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+    .banner-section {
+        flex-direction: column;
+    }
+
+    .banner-img img {
+        width: 90%;
+    }
+
+
+/* .banner-content{ */
+    
+
+
+
+
+
+
+
+
+
+    .banner-content {
+        background-image: url("../images/Group\ 14.png");
+        background-repeat: no-repeat;
+        background-size: 300px 600px;
+     
+        
+    }
+
+    /* .banner-description{ */
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    /* .banner-container{ */
+        max-width: 80%;
+    }
+
 }
