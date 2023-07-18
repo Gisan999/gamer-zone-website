@@ -1,0 +1,17 @@
+@media screen and (max-width:576px) {
+    .nav{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        box-shadow: none;
+    }
+
+    .nav-title{
+        margin-top: 30px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

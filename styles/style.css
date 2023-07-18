@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+.p-f-f {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav {
+    height: 110px;
+    background-color: #FFF;
+    box-shadow: 0px 2px 20px 0px lightgrey;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title img {
+    width: 86px;
+    height: 40px;
+}
+
+.heading-title {
+    text-align: center;
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-btn {
+    width: 262px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    color: #3C354F;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 17px 50px 18px 24px;
+    text-indent: 10px;
+
+}
+
+.nav-menu li {
+    /* text-decoration: none; */
+    list-style: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.1rem;
+
+    font-weight: 500;
+}
