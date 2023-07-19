@@ -158,7 +158,10 @@
         bottom: -150px;
 
     }
+    
 
+
+/* <><><<> sectiobn four ><<><>< */
 
 
 
@@ -179,5 +182,35 @@
     height: 30px;
     gap: 0px;
 }
+
+}
+
+
+/* <><><>< footer <><><>< */
+
+.footer-menu{
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 50px;
+}
+.footer-menu li{
+    font-size: 1rem;
+}
+
+.more-menu li{
+    font-size: 1rem;
+}
+
+
+.more-menu{
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px;
+}
+
+
+.footer-description{
+    font-size:1rem ;
+  
 
 }
