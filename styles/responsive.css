@@ -85,6 +85,69 @@
     }
 
 
+    /* <><><>< optional section <><><>< */
+
+    .bonus-container {
+        flex-direction: column;
+    }
+
+    .bonus-img img{
+        width: 350px;
+        margin-left: 30px;
+    }
+
+
+
+    .bonus-content {
+        align-items: center;
+    }
+
+
+
+
+
+
+    .bonus-content h1 {
+        font-size: 2rem;
+        padding: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .bonus-content p {
+        font-size: 12px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .bonus-content h4 {
+        font-size: 1rem;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .bonus-content h2 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .left {
+        margin-left: 160px;
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     /*<>><><><>< online game box section<><><><><> */
@@ -217,8 +280,8 @@
 
 }
 
-.logo-png{
-    width: 40px; 
+.logo-png {
+    width: 40px;
 }
 
 
@@ -260,6 +323,67 @@
         text-align: center;
         align-items: center;
     }
+
+
+
+
+
+
+
+
+/* <><><>>< optional section */
+
+
+
+.bonus-container {
+ flex-direction: column;
+  
+}
+
+.bonus-content{
+    margin-top: 100px;
+}
+
+
+.bonus-content h1 {
+    text-align: center;
+}
+
+.bonus-content p {
+    text-align: center;
+}
+
+.bonus-content h4 {
+    text-align: center; 
+}
+
+.bonus-content h2 {
+    text-align: center;
+}
+
+.left{
+    margin-left: 360px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
