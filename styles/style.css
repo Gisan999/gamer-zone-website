@@ -4,9 +4,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.hide {
+/* .hide {
     display: none;
-}
+}  */
 
 
 * {
@@ -69,24 +69,27 @@
     font-weight: 500;
 }
 
+
+
 /* <><><><banner section<><><>< */
+
+
 
 .banner-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 220px;
+    background-image: url("../images/Group14.png");
+    background-position: cover;
+    background-repeat: no-repeat;
 }
 
 .banner-content {
-    background-image: url("../images/Group\ 14.png");
-    width: 900px;
-    height: 700px;
-    /* background-position: left; */
+
+    align-items: center;
+    margin-top: 120px;
 }
 
-.banner-description {
-    margin-top: 150px;
-    margin-left: 200px;
-}
 
 .banner-title {
     color: #0B0223;
@@ -94,6 +97,7 @@
     font-size: 3rem;
     font-weight: 600;
 }
+
 
 .banner-second-title {
     font-family: 'Work Sans', sans-serif;
@@ -109,8 +113,6 @@
     color: #534C64;
     font-family: 'Work Sans', sans-serif;
     font-size: 1.3rem;
-    /* text-indent: 10px; */
-
     font-weight: 500;
     margin-top: 15px;
 
@@ -145,17 +147,18 @@
 }
 
 .banner-img img {
-    padding-top: 30px;
-    padding-right: 260px;
+    margin-top: 30px;
 }
 
 
 
 
 
-/* section two  */
+/* <>><><><>< section two  <>><><><  */
 
-.section-two-content{
+
+
+.section-two-content {
     text-align: center;
     margin-top: 30px;
 }
@@ -183,16 +186,64 @@
     margin-top: 20px;
 }
 
-.box{
+.box {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-top: 40px;
 }
 
-.box div p{
+.box div p {
     color: #534C64;
     font-family: 'Work Sans', sans-serif;
     font-size: 1.1rem;
-    font-weight: 500;   
+    font-weight: 500;
+}
+
+
+
+/*<><><>< section three ><><><>*/
+
+
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    margin-top: 120px;
+
+}
+
+.section-three-title {
+    color: #0B0223;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+.section-three-span-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.description {
+    text-align: right;
+}
+
+
+.section-three-content{
+   margin-top: 180px;
+}
+
+
+
+.small-img {
+position: relative;
+top: -300px;
+left: -150px;
+
 }
