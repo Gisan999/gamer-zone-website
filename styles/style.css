@@ -256,6 +256,9 @@
 /* <><<><><> section four <><><>< */
 
 
+.section-four{
+    height: 250px;
+}
 
 .my-btn {
     background: #FFF;
