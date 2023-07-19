@@ -3,7 +3,8 @@
 .p-f-f {
     font-family: 'Work Sans', sans-serif;
 }
-.w-c{
+
+.w-c {
     color: #FFF;
 }
 
@@ -205,6 +206,61 @@
 
 
 
+
+
+.container {
+    position: relative;
+    width: 342px;
+    height: 400px;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    border-radius: 15px;
+    
+    cursor: pointer;
+}
+
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: verdana;
+    text-align: center;
+}
+
+.container:hover .overlay{
+    opacity: 0.8;
+}
+
+
+
+
+.hover{
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+}
+
+
+
+
+
+
+
 /*<><><>< section three ><><><>*/
 
 
@@ -256,7 +312,7 @@
 /* <><<><><> section four <><><>< */
 
 
-.section-four{
+.section-four {
     height: 250px;
 }
 
@@ -297,47 +353,49 @@
 /* <><><><>< footer section <><><>< */
 
 
-.footer{
+.footer {
     margin-top: 100px;
-    background-color:#0B0223;
+    background-color: #0B0223;
     text-align: center;
 }
 
-.footer-title{
-justify-content: center;
-padding-top: 100px;
-padding-bottom: 20px;
+.footer-title {
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
 
 }
-.footer-menu{
+
+.footer-menu {
     display: flex;
     justify-content: center;
     padding: 30px;
     gap: 40px;
 }
-.footer-menu li{
+
+.footer-menu li {
     list-style: none;
-    font-size:1.1rem ;
+    font-size: 1.1rem;
     color: #FFF;
     font-weight: 600;
 }
 
-.more-menu{
+.more-menu {
     display: flex;
     justify-content: center;
     padding: 30px;
     gap: 50px;
 }
 
-.more-menu li{
+.more-menu li {
     list-style: none;
-    font-size:1.1rem ;
+    font-size: 1.1rem;
     color: #FFF;
     font-weight: 600;
 
 }
 
-.footer-logo{
+.footer-logo {
     display: flex;
     justify-content: center;
     padding: 30px;
@@ -345,23 +403,23 @@ padding-bottom: 20px;
 }
 
 
-.footer-logo button{
+.footer-logo button {
     background: transparent;
     /* border: none; */
 }
 
-.footer-logo button:hover{
+.footer-logo button:hover {
     background-color: #1e0466;
 
 }
 
-.logo-png{
+.logo-png {
     width: 60px;
     /* height: 40px; */
 }
 
-.footer-description{
-    font-size:1.1rem ;
+.footer-description {
+    font-size: 1.1rem;
     color: #FFF;
     font-weight: 600;
     padding-bottom: 100px;
