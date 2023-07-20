@@ -57,13 +57,20 @@
     text-indent: 10px;
 }
 
-.nav-menu li {
+.nav-menu a {
+    text-decoration: none;
     list-style: none;
     color: #3C354F;
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+.nav-menu a:hover{
+    color: rgb(27, 117, 27);
+    font-size: 1.1rem;
+    font-style: oblique;
 }
 
 
