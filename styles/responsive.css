@@ -1,6 +1,11 @@
 @media screen and (max-width:576px) {
 
+
+
     /* <><><>< nav section ><<><>< */
+
+
+
     .nav {
         flex-direction: column;
         height: auto;
@@ -20,7 +25,9 @@
 
 
 
+
     /*><><><><<><>><>< banner section<<><><><>><><>< */
+
 
 
 
@@ -37,12 +44,10 @@
         background-position: center;
     }
 
-
     .banner-title {
         font-size: 1.5rem;
         padding-top: 10px;
     }
-
 
     .banner-second-title {
         font-size: 3rem;
@@ -62,7 +67,6 @@
         font-size: 12px;
     }
 
-
     .banner-img img {
         width: 300px;
     }
@@ -70,11 +74,9 @@
     .banner-img {
         align-items: center;
         text-align: center;
-
     }
 
     .banner-content {
-
         align-items: center;
         margin-top: 0px;
     }
@@ -85,27 +87,27 @@
     }
 
 
+
+
+
     /* <><><>< optional section <><><>< */
+
+
+
+
 
     .bonus-container {
         flex-direction: column;
     }
 
-    .bonus-img img{
+    .bonus-img img {
         width: 350px;
         margin-left: 30px;
     }
 
-
-
     .bonus-content {
         align-items: center;
     }
-
-
-
-
-
 
     .bonus-content h1 {
         font-size: 2rem;
@@ -127,8 +129,8 @@
     }
 
     .bonus-content h2 {
-      font-size: 1.5rem;
-      text-align: center;
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     .left {
@@ -141,16 +143,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
     /*<>><><><>< online game box section<><><><><> */
+
 
 
 
@@ -178,13 +172,16 @@
     }
 
 
+
+
     /* <><><><>< section three ><><>< */
+
+
 
 
     .section-three {
         flex-direction: column;
     }
-
 
     .section-three-content {
         margin-top: 0px;
@@ -200,12 +197,10 @@
         text-align: center;
     }
 
-
     .section-three {
         gap: 50px;
         margin-top: 40px;
     }
-
 
     .main-img {
         width: 70%;
@@ -220,12 +215,14 @@
         position: relative;
         right: -180px;
         bottom: -150px;
-
     }
 
 
 
+
     /* <><><<> sectiobn four ><<><>< */
+
+
 
 
 
@@ -234,12 +231,10 @@
         grid-template-columns: 100px 100px 100px;
     }
 
-
     .my-btn {
         font-size: 10px;
         padding: 5px 10px;
     }
-
 
     .my-btn img {
         width: 30px;
@@ -250,7 +245,12 @@
 }
 
 
+
+
 /* <><><>< footer <><><>< */
+
+
+
 
 .footer-menu {
     flex-wrap: wrap;
@@ -266,18 +266,14 @@
     font-size: 1rem;
 }
 
-
 .more-menu {
     flex-wrap: wrap;
     padding: 30px;
     gap: 20px;
 }
 
-
 .footer-description {
     font-size: 1rem;
-
-
 }
 
 .logo-png {
@@ -295,6 +291,14 @@
 
 
 /* <><><><><> media quary for tablet <><><><*/
+
+/* <><><><><> media quary for tablet <><><><*/
+
+
+
+
+
+
 
 
 
@@ -317,11 +321,12 @@
         text-align: center;
     }
 
-
     .box {
         flex-wrap: wrap;
         text-align: center;
         align-items: center;
+        gap: 50px;
+        padding-bottom: 30px;
     }
 
 
@@ -329,60 +334,45 @@
 
 
 
-
-
-/* <><><>>< optional section */
-
-
-
-.bonus-container {
- flex-direction: column;
-  
-}
-
-.bonus-content{
-    margin-top: 100px;
-}
-
-
-.bonus-content h1 {
-    text-align: center;
-}
-
-.bonus-content p {
-    text-align: center;
-}
-
-.bonus-content h4 {
-    text-align: center; 
-}
-
-.bonus-content h2 {
-    text-align: center;
-}
-
-.left{
-    margin-left: 360px;
-}
+    /* <><><>>< optional section */
 
 
 
 
 
+    .bonus-container {
+        flex-direction: column;
+    }
 
+    .bonus-img img {
+        width: 700px;
+        margin-left: 30px;
+    }
 
+    .bonus-content {
+        margin-top: 100px;
+    }
 
+    .bonus-content h1 {
+        text-align: center;
+    }
 
+    .bonus-content p {
+        text-align: center;
+    }
 
+    .bonus-content h4 {
+        text-align: center;
+    }
 
+    .bonus-content h2 {
+        text-align: center;
+    }
 
-
-
-
-
-
-
-
+    .left {
+        margin-left: 300px;
+        font-size: 14px;
+    }
 
 
 
@@ -390,11 +380,14 @@
 
     /* section three <><><>< */
 
+
+
+
+
     .section-three {
         flex-direction: column;
         gap: 50px;
         margin-top: 40px;
-
     }
 
     .section-three-content {
@@ -411,7 +404,6 @@
         text-align: center;
     }
 
-
     .main-img {
         width: 80%;
         align-items: center;
@@ -425,8 +417,11 @@
         position: relative;
         right: -160px;
         bottom: -80px;
-
     }
+
+
+
+
 
 
 
@@ -437,20 +432,16 @@
         grid-template-columns: 200px 200px 200px;
     }
 
-
     .my-btn {
         font-size: 1rem;
         padding: 10px 20px;
     }
-
 
     .my-btn img {
         width: 40px;
         height: 40px;
         gap: 0px;
     }
-
-
 
 
 }
